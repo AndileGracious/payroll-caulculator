@@ -1,3 +1,5 @@
+package com.pluralsight;
+
 import java.util.Scanner;
 
 public class PayrollCalculator {
@@ -10,6 +12,7 @@ public class PayrollCalculator {
         System.out.println("Enter the pay rate");
         float payRate = myScanner.nextFloat();
         float grossPay = hours * payRate;
+        System.out.println(name + "your gross pay is " + grossPay);
 
     }
 }
